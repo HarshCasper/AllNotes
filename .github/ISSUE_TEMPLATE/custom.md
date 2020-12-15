@@ -1,11 +1,9 @@
----
-name: Custom issue template
-about: Describe the issue in the given format.
-title: ''
-labels: ''
-assignees: ''
 
----
+Custom issue template
+-Describe the issue in the given format.
+
+
+
 
 # Proposed Change
 - What changes need to be done (mention location if possible)
