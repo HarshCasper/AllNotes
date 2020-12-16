@@ -1,7 +1,6 @@
 ## Contributor Covenant Code of Conduct
 
 > The code of conduct helps to welcome all people to contribute and pledges in return to value them as whole human beings and to foster an atmosphere of kindness, cooperation, and understanding.
-
 ### Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
