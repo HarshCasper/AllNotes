@@ -1,0 +1,29 @@
+version = 1
+
+test_patterns = ["*/test/**"]
+
+exclude_patterns = [
+    "public/**,",
+    "dist/**"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  ecma_version = "2020"
+  module_system = "es-modules"
+  environment = ["nodejs",
+  "browser",
+  "jest",
+  "mongo",
+  ]
+
+  plugins = ["react"]
+  style_guide = "airbnb"
+  dialect = "typescript"
+
+  dependency_file_paths = [
+  "package.json",
+  ]
