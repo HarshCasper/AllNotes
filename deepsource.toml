@@ -1,7 +1,5 @@
 version = 1
 
-test_patterns = ["*/test/**"]
-
 exclude_patterns = [
     "public/**,",
     "dist/**"
@@ -12,7 +10,7 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  ecma_version = "2020"
+  ecma_version = "6"
   module_system = "es-modules"
   environment = ["nodejs",
   "browser",
@@ -22,8 +20,11 @@ enabled = true
 
   plugins = ["react"]
   style_guide = "airbnb"
-  dialect = "typescript"
-
+  
+  
   dependency_file_paths = [
-  "package.json",
+  "client/package.json",
+  "server/package.json",
   ]
+  
+  
