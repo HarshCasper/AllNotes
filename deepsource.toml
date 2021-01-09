@@ -1,0 +1,28 @@
+version = 1
+
+exclude_patterns = [
+    "public/**,",
+    "dist/**"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  ecma_version = "6"
+  module_system = "es-modules"
+  environment = ["nodejs",
+  "browser",
+  "jest",
+  "mongo",
+  ]
+
+  plugins = ["react"]
+  style_guide = "airbnb"
+  
+  dependency_file_paths = [
+  "client/package.json",
+  "server/package.json",
+  ]
+  
