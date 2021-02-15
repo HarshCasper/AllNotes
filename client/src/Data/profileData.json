@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Priyal Dubey",
+      "institute": "IIT Indore",
+      "profile_pic": "Assets/download.jpg",
+      "bio": "Being able to work hard is the best talent of all."
+    }
+  ],
+  "stats": [
+    {
+      "id": 1,
+      "total_upvotes": 19,
+      "notes_shared": 6,
+      "contributed_to": 14
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "topic": "Centrifugal Pumps",
+      "subject": "Mechanics",
+      "description": "Centrifugal pumps are commonly used for pumping water, solvents, organics, oils, acids, bases and any 'thin' liquids in both industrial, agricultural and domestic applications."
+    },
+    {
+      "id": 2,
+      "topic": "Web design",
+      "subject": "Computer Science",
+      "description": "Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development."
+    },
+    {
+      "id": 3,
+      "topic": "Newton's method",
+      "subject": "Mathematics",
+      "description": "In numerical analysis, Newton's method, also known as the Newton–Raphson method, named after Isaac Newton and Joseph Raphson, is a root-finding algorithm which produces successively better approximations to the roots of a real-valued function."
+    }
+  ]
+}

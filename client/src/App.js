@@ -1,14 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route, Redirect, BrowserRouter } from "react-router-dom";
+import React, { Component } from "react";
+import Header from "./Pages/Header";
+import Footer from "./Pages/Footer";
+import Profile from "./Pages/UserProfile";
+import profileData from "./Data/profileData.json";
+import "./styles.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello, All-Notes :)</h1>
-
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Switch>
+        <Route path="/dashboard" component={Profile} />
+        <Redirect to="/dashboard" />
+      </Switch>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
