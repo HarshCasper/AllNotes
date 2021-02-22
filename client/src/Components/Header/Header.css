@@ -1,0 +1,41 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #3e206d !important;
+  z-index: 999;
+  overflow: hidden !important;
+}
+
+.header nav {
+  margin: 0.5rem 0;
+}
+
+.nav__brand {
+  font-size: 1.5rem !important;
+}
+
+div.dropdown-menu,
+.show {
+  background: #3e206d !important;
+  transition: 0.5s ease-in-out !important;
+}
+
+button.dropdown-item:hover {
+  background: transparent !important;
+}
+
+.nav__items a,
+.nav__items .about {
+  font-size: 1rem;
+  margin: 0 0.2rem;
+  font-weight: 450;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase !important;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  outline: none !important;
+}
