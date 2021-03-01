@@ -45,8 +45,8 @@ const HomePage = () => (
    </div>  
 </div>
 
-<h1 class="text-pink mt-5">Comprehensive underneath,</h1>
-<h1 class="text-pink">simple on the surface!</h1>
+<h1 class="intro text-pink mt-5">Comprehensive underneath,</h1>
+<h1 class="intro text-pink">simple on the surface!</h1>
 
 <div className="container mb-5 mt-5">
 <div className="jumbotron">
