@@ -1,22 +1,23 @@
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom'
+import { Switch, Route, Redirect, BrowserRouter } from "react-router-dom";
+import React, { Component } from "react";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Profile from "./Pages/UserProfile";
+import profileData from "./Data/profileData.json";
+import "./styles.css";
 import NotFoundPage from './pages/NotFoundPage';
-// import HomePage from './pages/HomePage';
 
 function App() {
   return (
-    <Router>
-        <div className="App">
-            <Switch>
-                {/* <Route path="/" component={HomePage} exact /> */}
-                <Route component={NotFoundPage} />
-            </Switch>
-
-        </div>
-    </Router>
+    <BrowserRouter>
+      <Header />
+      <Switch>
+        <Route path="/profile" component={Profile} />
+        <Route component={NotFoundPage} />
+      </Switch>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
