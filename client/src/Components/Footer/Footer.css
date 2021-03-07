@@ -1,0 +1,75 @@
+.footer {
+  background: #3e206d;
+  padding: 50px;
+  color: white;
+  overflow: hidden !important;
+}
+
+.links {
+  margin-bottom: 1rem;
+}
+.contact {
+  margin-bottom: 1rem;
+}
+.newsletter {
+  margin-bottom: 1rem;
+}
+
+.links li a {
+  color: #ddd;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  text-decoration: none;
+  color: #e86d31;
+}
+
+.contact p {
+  color: #ddd;
+}
+
+.contact li img {
+  margin-right: 0.5rem;
+}
+
+.newsletter input {
+  padding: 0.8rem;
+  outline: none;
+  border: 1px solid #999;
+  width: 80%;
+}
+
+.footer-content {
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid white;
+}
+
+.footer-content ul {
+  display: flex;
+}
+
+.footer-content ul li {
+  margin: 0 1rem;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-content ul li:hover {
+  transform: scale(1.2) !important;
+}
+
+.copyright {
+  margin: 1rem 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
