@@ -26,9 +26,6 @@ Project Managers, Developers and Designers would be collaborating on various dom
     
 This would be an enriching experience for all Student Developers, Project Managers and Designers.
 
-## Team Prospects 👨‍💻
-
-Assuming a total team strength of X, X/3 students will be working on Front-End, X/3 on Back-End and X/3 on Databases/DevOps/Deployment. The minimum number of people I am looking for to work on this project is 6 while the maximum number of people I am looking for to work on this project is 24.
 
 ## Technology Stack 🛠️
 
