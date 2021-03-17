@@ -28,6 +28,19 @@ To make it a gamified experience, other Users can upvote the contributions done 
     
 - [API Design in Node.js (using Express & Mongo)](https://frontendmasters.com/courses/api-design-nodejs/using-the-mongo-with-node/)
 
+## Contributors 🌟
+
+Thanks goes to these wonderful people ✨✨:
+<table>
+  <tr>
+    <td>
+       <a href="https://github.com/HarshCasper/AllNotes/graphs/contributors">
+            <img src="https://contrib.rocks/image?repo=HarshCasper/AllNotes" />
+       </a>
+    </td>
+  </tr>
+</table>
+
 ## License📜
 
 [MIT License](https://github.com/HarshCasper/AllNotes/blob/main/LICENSE)
