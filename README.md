@@ -48,21 +48,6 @@ Assuming a total team strength of X, X/3 students will be working on Front-End, 
     
 - [API Design in Node.js (using Express & Mongo)](https://frontendmasters.com/courses/api-design-nodejs/using-the-mongo-with-node/)
 
-## Project Admin ❤️
-<table>
-  <tr>
-    <td align="center">
-            <a href="https://github.com/HarshCasper">
-              <img src="https://avatars.githubusercontent.com/u/47351025?s=460&u=e6985588320978737a51ac23c8a624005fce5e18&v=4" width="100px" alt=""/><br />
-              <sub><b>HarshCasper</b></sub>
-            </a><br/>   
-            <a href="https://github.com/HarshCasper/AllNotes/commits?author=HarshCasper">   
-                👑 👀 💬 Author
-            </a>
-    </td>
-  </tr>
-</table>
-
 ## Contributors 🌟
 
 Thanks goes to these wonderful people ✨✨:
