@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Footer";
 import Profile from "./Pages/UserProfile";
 import profileData from "./Data/profileData.json";
 import "./styles.css";
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/profile" component={Profile} />
-        <Redirect to="/profile" />
+        <Route component={NotFoundPage} />
       </Switch>
       <Footer />
     </BrowserRouter>
