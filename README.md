@@ -10,22 +10,9 @@ In Majority of the Colleges and Universities across India, Notes Sharing is done
 
 To make it a gamified experience, other Users can upvote the contributions done by the Contributors which can be “rewarded” in terms of Credits and more. We will also be working on adding more features to the Project, like specifying the nature of Notes and to whom it benefits the most which would allow the other User to filter and view specific content.
 
-## Areas of Collaboration 👨‍🏭
+## Team Prospects 👨‍💻
 
-Project Managers, Developers and Designers would be collaborating on various domains like:
-
--   UI Prototyping with Tools like Adobe XD/Figma
-    
--   Front-End Development with ReactJS
-    
--   Developing Backend APIs with NodeJS and MongoDB
-    
--   Working on a NoSQL Database Management System
-    
--   Working on a User-Experience rich platform for a Social Cause
-    
-This would be an enriching experience for all Student Developers, Project Managers and Designers.
-
+Assuming a total team strength of X, X/3 students will be working on Front-End, X/3 on Back-End and X/3 on Databases/DevOps/Deployment. The minimum number of people I am looking for to work on this project is 6 while the maximum number of people I am looking for to work on this project is 24.
 
 ## Technology Stack 🛠️
 
