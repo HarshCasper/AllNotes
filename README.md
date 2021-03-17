@@ -10,10 +10,6 @@ In Majority of the Colleges and Universities across India, Notes Sharing is done
 
 To make it a gamified experience, other Users can upvote the contributions done by the Contributors which can be “rewarded” in terms of Credits and more. We will also be working on adding more features to the Project, like specifying the nature of Notes and to whom it benefits the most which would allow the other User to filter and view specific content.
 
-## Team Prospects 👨‍💻
-
-Assuming a total team strength of X, X/3 students will be working on Front-End, X/3 on Back-End and X/3 on Databases/DevOps/Deployment. The minimum number of people I am looking for to work on this project is 6 while the maximum number of people I am looking for to work on this project is 24.
-
 ## Technology Stack 🛠️
 
 - **Coding Languages**: Javascript (MERN Stack)
