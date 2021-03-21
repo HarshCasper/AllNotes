@@ -4,7 +4,7 @@ const app = express();
 // assuming model to be of name - User
 const User = mongoose.model('User');
 
-module.exports.DeleteRoute('/', (req, res) => {
+module.exports.DeleteRoute = (req, res) => {
   const { body } = req;
   const { name, email, _id } = body;
 
@@ -23,4 +23,4 @@ module.exports.DeleteRoute('/', (req, res) => {
         message: ' User sucessfully deleted !',
       });
   });
-});
+};
