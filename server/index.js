@@ -4,7 +4,7 @@ const port = 8000;
 const router = express.Router();
 
 // Delete Route
-import DeleteRoute from './Routes/Delete/Delete';
+import Delete from './Routes/Delete/Delete';
 
 var project = [
   {
@@ -12,7 +12,7 @@ var project = [
   },
 ];
 
-router.get('/delete/user', DeleteRoute);
+router.delete('/delete/user', Delete.DeleteRoute);
 
 app.get('/', (req, res) => {
   res.json(project);
